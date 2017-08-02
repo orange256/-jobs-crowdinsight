@@ -1,7 +1,7 @@
 # -jobs-crowdinsight
 for job task
 
-There are 3 Rscripts:
+There are 4 Rscripts:
 
 1.myfunctions.R
 
@@ -9,9 +9,9 @@ There are 3 Rscripts:
 
 2.Task_1_SVM.R
 
-    [Goal]: emotions detect by Chinese text (with out any pre-train model, only use training data)
+    [Goal]: emotions detect by Chinese text (without using any pre-train model, use training data only)
     
-    [pre-processiing]: invalid value check, chinese word segment, stopwords, prune vocab
+    [pre-processiing]: invalid value check(rate), chinese word segment, stopwords cleaning, prune vocab...
     
     [feature extraction]: Document-Term Matrix (DTM)
     
@@ -19,8 +19,31 @@ There are 3 Rscripts:
     
     [Accuracy]: RF (68.3%) is better than SVM (65.2%)
     
-    [Further work]: We can do some feature selection to get higher accuracy rate
-                    (by importance, gain, TF-IDF....etc), 
+    [How to do better?]: We can do some feature selection (by importance, gain, TF-IDF....etc) to get higher accuracy.
+                        (如果有興趣的話，這部分可以二面時詳談)
+                   
                     
-3.Task_2_recommendation.R
+3.Task_2_recommendation_kmean.R
+    
+    [Goal]: construct a recommendation model (user-based)
+    
+    [discription]: 
+        (1) only use 2 variable 'user', 'item' (without using datetime)
+        (2) 90% training / 10% testing
+         
+    
+    
+    [feature extraction]: 
+    
+    [Model]: 
+    
+    [Accuracy]: 
+    
+    [How to do better?]: We can do some feature selection (by importance, gain, TF-IDF....etc) to get higher accuracy.
+                        (如果有興趣的話，這部分可以二面時詳談)
+
+    
+    
+    
+4.Task_2_date_FeatureExtraction.R
       
