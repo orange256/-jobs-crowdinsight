@@ -26,11 +26,11 @@ There are 4 Rscripts:
     
     [Result]: RF (68.3%) is better than SVM (65.2%)
     
-    [How to do better?]:
+    [How to do better?]: (如果有興趣的話，這部分可以二面時詳談)
         (1) Do some feature selection (by importance, gain, TF-IDF....etc) 
         (2) Use pre-train model 
         
-   (如果有興趣的話，這部分可以二面時詳談)
+   
                    
                     
 3.Task_2_recommendation_kmean.R
@@ -61,12 +61,10 @@ There are 4 Rscripts:
             (1000, 30)  => 0.5858665
             (1000, 100) => 0.7148934       
             
-    [How to do better?]: 
+    [How to do better?]: (如果有興趣的話，這部分可以二面時詳談)
         (1) add "datetime" related features
         (2) others algorithm...
     
-   (如果有興趣的話，這部分可以二面時詳談)
-
     
 4.Task_2_date_FeatureExtraction.R
 
